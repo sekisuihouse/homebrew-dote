@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "kmc_lib.h"
 int suiti = 0;
 int color(int x,int k) {
     if (x == 0) return rand();
