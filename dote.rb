@@ -3,7 +3,7 @@ class Dote < Formula
   homepage "https://github.com/sekisuihouse/homebrew-dote"
   url "https://raw.githubusercontent.com/sekisuihouse/homebrew-dote/main/dote.c"
   sha256 "19660516e66d59d8ed6537d32fc348679d7bacc29d0beacd65d92f9cf6af5f67"
-  version “1.0.0”
+  version "1.0.0"
 
   def install
     system ENV.cc, "dote.c", "-o", "dote"
